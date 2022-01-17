@@ -1,5 +1,9 @@
 -- What are all the neighborhoods?
-SELECT neighborhood FROM listings GROUP BY neighborhood ORDER BY neighborhood  Limit 10
+SELECT neighborhood 
+FROM listings 
+GROUP BY neighborhood 
+ORDER BY neighborhood  
+Limit 10;
 -- +------------------------+
 -- | Albany Park            |
 -- | Archer Heights         |
